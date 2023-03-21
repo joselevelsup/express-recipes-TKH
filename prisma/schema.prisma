@@ -14,6 +14,7 @@ datasource db {
 model User {
   id Int @unique @default(autoincrement())
   username String
+  password String
   recipes Recipe[]
 }
 
